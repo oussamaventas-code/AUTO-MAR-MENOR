@@ -9,7 +9,7 @@ if (typeof window !== "undefined") gsap.registerPlugin(ScrollTrigger);
 
 export function QualityGuarantee() {
   const container = useRef<HTMLElement>(null);
-  const bgImage = useRef<HTMLDivElement>(null);
+  const bgImage = useRef<HTMLVideoElement>(null);
 
   useEffect(() => {
     const ctx = gsap.context(() => {
